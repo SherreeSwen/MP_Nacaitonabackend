@@ -1,0 +1,25 @@
+POST http://127.0.0.1:8000/api/register 
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "Shere",
+  "email": "shereanne@gmail.com",
+  "password": "shereswen"
+}
+
+###
+
+POST http://127.0.0.1:8000/api/login 
+Accept: application/json
+Content-Type: application/json
+
+{
+  "email": "shereanne@gmail.com",
+  "password": "shereswen"
+}
+
+###
+
+POST http://127.0.0.1:8000/api/logout 
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzAyMTI1NTUxLCJleHAiOjE3MDIxMjkxNTEsIm5iZiI6MTcwMjEyNTU1MSwianRpIjoieWhMR0tQSVNJQmxsbmh2RCIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.jLIn3TQrSF5uZCtj_13rjiw1dT2070gLKc8v_13deJg
